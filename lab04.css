@@ -1,0 +1,86 @@
+/*
+filename: lab04.css
+author: mohammed sami aljattal
+created: 15 October 2026
+last modified: 15 October 2026
+description: CSS styles for lab04.html
+*/
+
+/* Step 3: Style the main heading */
+h1 {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Element selector: Set the default font and colour */
+* {
+    font-family: Calibri, sans-serif;
+    color: #2F4F4F;
+}
+
+/* Style all h2 headings */
+h2 {
+    color: rgb(0, 128, 128);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Group selector: Make aside and footer italic */
+aside, footer {
+    font-style: italic;
+}
+
+/* Group selector: Set heading fonts */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+/* Add borders to the table and its cells */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* ID selector: Centre the Images heading */
+#images {
+    text-align: center;
+}
+
+/* ID selector: Make only the Headings h3 red */
+#headings-title {
+    color: red;
+}
+
+/* Class selector: Style special characters */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+/* Class selector: Right-align Jan and Feb */
+.month-heading {
+    text-align: right;
+}
+
+/* Contextual selector: Style navigation links */
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+/* Contextual selector: Make nested list bullets square */
+ol ul {
+    list-style-type: square;
+}
+
+/* Pseudo-class: Hide aside when the mouse hovers over it */
+aside:hover {
+    display: none;
+}
+
+/* Pseudo-class: Change navigation colours on hover */
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
