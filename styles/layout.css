@@ -2,7 +2,7 @@ aside:hover {
     display: block;
 }
 
-menu {
+.menu {
     display: inline-block;
 }
 
@@ -16,7 +16,7 @@ aside {
     margin: 1em;
     padding: 1em;
     width: 30%;
-    background: url(images/fade.jpg) repeat-x;
+    background: url("../images/fade.jpg") repeat-x;
     top: 0;
     left: 0;
     float: right;
@@ -60,7 +60,7 @@ figure {
     border: 2px solid #ccc;
 }
 
-#headings, #sc, #list, #lists, #tables, #images, #hyperlinks {
+#headings, #sc, #lists, #tables, #images, #hyperlinks {
     text-align: center;
     width: 45%;
 }
